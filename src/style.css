@@ -1,3 +1,33 @@
 body{
     text-align: center;
+    background-color: #ff6666;
+    font-size: x-large;
+}
+
+#count{
+    display: inline;
+    border-style: solid;
+    padding: 1% 2%;
+    background-color: aliceblue;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+button.counter-btn{
+    padding: 10px 20px;
+    opacity: 0.8;
+    border-radius: 15px;
+    border: none;
+    margin: 2px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+section.cycles{
+    margin: 5% 30%;
+}
+
+ul.cycle-list{
+    border-style: solid;
+    list-style: none;
 }
